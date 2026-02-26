@@ -132,7 +132,15 @@ nav .nav-menu {
   display: flex;
   align-items: center;
 }
-nav .links { display: flex; gap: 28px; }
+nav .links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+nav .links .nav-icon {
+  display: inline-flex;
+  align-items: center;
+}
 nav .nav-label {
   display: none;
 }
