@@ -39,10 +39,10 @@ Senior Software Engineer with 10+ years of experience building and scaling web a
 
 ---
 
-### Team Leader · Narola Infotech · Surat  
+### Team Lead · Narola Infotech · Surat  
 **Jan 2016 – Aug 2019**
 
-- Joined as one of the first Ruby on Rails interns and grew into a Team Leader over 3.5 years.
+- Joined as one of the first Ruby on Rails interns and grew into a Team Lead over 3.5 years.
 - Led delivery across small and large‑scale projects including architecture, deployment, client interaction, and post‑production support.
 - Mentored interns and junior developers, managed task delegation, and ensured on‑time delivery against daily and sprint targets.
 - Acted as a cross‑team technical unblock, maintaining high code quality and alignment with client requirements.
