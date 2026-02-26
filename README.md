@@ -14,7 +14,7 @@ Senior Software Engineer with 10+ years of experience building and scaling web a
 
 ## EXPERIENCE
 
-### Software Engineer · Jiva Agservices Private Limited · Bangalore (Remote)  
+### Software Engineer · Jiva AgServices · Bangalore (Remote)  
 **Jan 2023 – Feb 2026**
 
 - Designed and developed scalable services using Ruby on Rails, GraphQL, and a microservices architecture.
@@ -27,7 +27,7 @@ Senior Software Engineer with 10+ years of experience building and scaling web a
 
 ---
 
-### Software Engineer · Coupa Software · Pune  
+### Software Engineer · Coupa Software · Pune (Remote)  
 **Sep 2019 – Nov 2022**
 
 - Owned the sourcing module end‑to‑end, including feature design, story creation, planning, peer reviews, and delivery.
@@ -54,19 +54,20 @@ Senior Software Engineer with 10+ years of experience building and scaling web a
 ## TECHNICAL SKILLS
 
 - **AI & Tooling:** Cursor, Claude Code, MCP Servers, Agentic Applications, Conductor, Prompt Engineering.
-- **Languages & Frameworks:** Ruby on Rails, Ruby (1.9+), Rails (4.2+), React, Ember.js, CoffeeScript, JavaScript, HTML/CSS, SQL.
-- **Architecture & APIs:** GraphQL, REST APIs, Microservices.
+- **Languages & Frameworks:** Ruby on Rails, Ruby (1.9+), Rails (4.2+), Node.js, React, Ember.js, CoffeeScript, JavaScript, HTML, SCSS, SQL.
+- **Architecture & APIs:** GraphQL, REST APIs, RPC, Microservices.
 - **Databases & Messaging:** PostgreSQL, MySQL, MongoDB, Redis, Kafka, Datadog.
 - **Testing:** RSpec, Cucumber, Selenium, TDD.
 - **Cloud, DevOps & Payments:** AWS, GCP, Heroku, Docker, CI/CD, CircleCI, Sidekiq, Stripe, PayPal, Braintree.
 - **Leadership & Management:** Team Leadership, Mentoring, Client Communication, Project Management, Product Management.
+- **Design & Collaboration:** Miro, Figma, Canva.
 - **Observability & Tooling:** Sentry, Last9, Retool, GitHub, Bitbucket, Jira, Asana.
 
 ---
 
 ## PROJECT HIGHLIGHTS
 
-- **Jiva Agservices:** AgriTech and microfinance platform improving livelihoods of smallholder farmers across India and Indonesia, supporting micro‑financing, agri‑ecommerce, harvest purchase, and agronomy advisory. Contributed to systems that advised 10M+ farmers and processed 500K+ tonnes of harvest.
+- **Jiva AgServices:** AgriTech and microfinance platform improving livelihoods of smallholder farmers across India and Indonesia, supporting micro‑financing, agri‑ecommerce, harvest purchase, and agronomy advisory. Contributed to systems that advised 10M+ farmers and processed 500K+ tonnes of harvest.
 - **Coupa BSM:** Enterprise Business Spend Management platform. Responsible for development tasks, issue triage from customer feedback, and close collaboration with product/project managers.
 - **Interstride:** Platform powering global careers for international students — admissions and career portals, job and internship search, and visa sponsorship resources. Contributed while at Narola Infotech.
 - **WeddingExpo:** Marketplace connecting brides and vendors with an admin panel for prize/discount management, payment processing, email marketing, and recurring jobs. Led end‑to‑end development and live event support.

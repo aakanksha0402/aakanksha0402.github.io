@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aakanksha Sharma — Resume</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
+<style>
+  /* ── RESET & BASE ─────────────────────────────────────────────────── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy:     #1a2e4a;
+    --navy-mid: #2c4a6e;
+    --accent:   #c8965a;
+    --slate:    #5a6a7e;
+    --muted:    #8a99aa;
+    --body:     #2e3c4e;
+    --rule:     #d4dce6;
+    --bg:       #f7f5f2;
+    --white:    #ffffff;
+    --col-gap:  24px;
+  }
+
+  html { font-size: 10pt; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    color: var(--body);
+    background: var(--bg);
+    line-height: 1.55;
+  }
+
+  /* ── PAGE WRAPPER ─────────────────────────────────────────────────── */
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    background: var(--white);
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* ── DECORATIVE VERTICAL STRIPE ───────────────────────────────────── */
+  .page::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, var(--navy) 0%, var(--accent) 60%, transparent 100%);
+  }
+
+  /* ── HEADER ───────────────────────────────────────────────────────── */
+  .header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+    padding: 24px 28px 14px 28px;
+    border-bottom: 1px solid var(--rule);
+    gap: 20px;
+  }
+
+  .label {
+    font-size: 7pt;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  .name {
+    font-family: 'DM Serif Display', serif;
+    font-size: 26pt;
+    color: var(--navy);
+    line-height: 1.0;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+  }
+
+  .title-line {
+    font-size: 9.5pt;
+    color: var(--slate);
+    font-weight: 400;
+    letter-spacing: 0.02em;
+  }
+
+  .header-right {
+    text-align: right;
+    padding-bottom: 4px;
+  }
+
+  .contact-item {
+    font-size: 8pt;
+    color: var(--slate);
+    line-height: 1.7;
+    font-weight: 300;
+  }
+
+  .contact-item a {
+    color: var(--slate);
+    text-decoration: none;
+  }
+
+  .contact-item a:hover { color: var(--accent); }
+
+  /* ── MAIN LAYOUT ──────────────────────────────────────────────────── */
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 2.2fr;
+    gap: 0;
+    min-height: calc(297mm - 100px);
+  }
+
+  /* ── LEFT COLUMN ──────────────────────────────────────────────────── */
+  .col-left {
+    padding: 16px 20px 22px 28px;
+    border-right: 1px solid var(--rule);
+    background: #faf9f7;
+  }
+
+  /* ── RIGHT COLUMN ─────────────────────────────────────────────────── */
+  .col-right {
+    padding: 16px 28px 22px 24px;
+  }
+
+  /* ── SECTION ──────────────────────────────────────────────────────── */
+  .section { margin-bottom: 14px; }
+  .section:last-child { margin-bottom: 0; }
+
+  .section-title {
+    font-size: 6.5pt;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--navy);
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--rule);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .section-title::after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 1.5px;
+    background: var(--accent);
+    flex-shrink: 0;
+  }
+
+  /* ── SUMMARY ──────────────────────────────────────────────────────── */
+  .summary p {
+    font-size: 8.3pt;
+    color: var(--body);
+    line-height: 1.6;
+    font-weight: 300;
+  }
+
+  /* ── SKILLS (left col) ────────────────────────────────────────────── */
+  .skill-group { margin-bottom: 10px; }
+  .skill-group:last-child { margin-bottom: 0; }
+
+  .skill-cat {
+    font-size: 7.5pt;
+    font-weight: 600;
+    color: var(--navy-mid);
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+  }
+
+  .tag {
+    font-size: 7pt;
+    font-weight: 400;
+    color: var(--slate);
+    background: var(--white);
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    padding: 1px 5px;
+    line-height: 1.6;
+  }
+
+  /* ── EDUCATION (left col) ─────────────────────────────────────────── */
+  .edu-item { margin-bottom: 9px; }
+  .edu-item:last-child { margin-bottom: 0; }
+
+  .edu-degree {
+    font-size: 8pt;
+    font-weight: 500;
+    color: var(--navy);
+    line-height: 1.4;
+  }
+
+  .edu-detail {
+    font-size: 7.5pt;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  /* ── AI SECTION (left col) ────────────────────────────────────────── */
+  .ai-text {
+    font-size: 7.8pt;
+    color: var(--slate);
+    line-height: 1.6;
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  /* ── JOB ENTRY ────────────────────────────────────────────────────── */
+  .job { margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px dashed var(--rule); }
+  .job:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1px;
+    gap: 8px;
+  }
+
+  .job-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 11.5pt;
+    color: var(--navy);
+    line-height: 1.2;
+  }
+
+  .job-period {
+    font-size: 7.5pt;
+    color: var(--accent);
+    font-weight: 500;
+    white-space: nowrap;
+    letter-spacing: 0.03em;
+  }
+
+  .job-company {
+    font-size: 8pt;
+    color: var(--slate);
+    margin-bottom: 6px;
+    font-weight: 400;
+  }
+
+  .job-company em {
+    font-style: normal;
+    color: var(--muted);
+  }
+
+  .bullets { list-style: none; margin-bottom: 5px; }
+
+  .bullets li {
+    font-size: 8.3pt;
+    color: var(--body);
+    line-height: 1.55;
+    padding-left: 12px;
+    position: relative;
+    margin-bottom: 2px;
+    font-weight: 300;
+  }
+
+  .bullets li::before {
+    content: '–';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-weight: 400;
+  }
+
+  .tech-line {
+    font-size: 7.5pt;
+    color: var(--slate);
+    font-style: italic;
+    line-height: 1.4;
+    margin-bottom: 5px;
+  }
+
+  .tech-line .tech-prefix {
+    font-style: normal;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 0.03em;
+  }
+
+  /* ── PROJECTS ─────────────────────────────────────────────────────── */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 16px;
+  }
+
+  .project-item {}
+
+  .project-name {
+    font-size: 8pt;
+    font-weight: 600;
+    color: var(--navy-mid);
+    margin-bottom: 2px;
+    letter-spacing: 0.01em;
+  }
+
+  .project-desc {
+    font-size: 7.5pt;
+    color: var(--slate);
+    line-height: 1.5;
+    font-weight: 300;
+  }
+
+  /* ── PRINT STYLES ─────────────────────────────────────────────────── */
+  @media print {
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    html, body {
+      width: 210mm;
+      height: 297mm;
+      font-size: 10pt;
+      background: white;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    body { background: white; }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0;
+      box-shadow: none;
+    }
+  }
+
+  /* ── SCREEN SHADOW ────────────────────────────────────────────────── */
+  @media screen {
+    body { padding: 20px; }
+    .page { box-shadow: 0 4px 40px rgba(0,0,0,0.12); }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-left">
+      <span class="label">Senior Software Engineer · Human in AI Loop</span>
+      <h1 class="name">Aakanksha Sharma</h1>
+      <p class="title-line">Ruby on Rails &nbsp;·&nbsp; AI-Augmented Development</p>
+    </div>
+    <div class="header-right">
+      <div class="contact-item"><a href="mailto:aakanksha0402@gmail.com">aakanksha0402@gmail.com</a></div>
+      <div class="contact-item"><a href="https://linkedin.com/in/aakanksha0402">linkedin.com/in/aakanksha0402</a></div>
+      <div class="contact-item"><a href="https://github.com/aakanksha0402">github.com/aakanksha0402</a></div>
+      <div class="contact-item">India &nbsp;·&nbsp; Open to remote</div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <div class="main">
+
+    <!-- LEFT COLUMN -->
+    <aside class="col-left">
+
+      <!-- SUMMARY -->
+      <div class="section summary">
+        <h2 class="section-title">Profile</h2>
+        <p>Senior Software Engineer with 10+ years building and scaling web applications. Skilled in leading projects, delivering reliable, test-driven, and scalable solutions while collaborating across stakeholders.</p>
+      </div>
+
+      <!-- AI AUGMENTED -->
+      <div class="section summary">
+        <h2 class="section-title">AI-First Workflow</h2>
+        <p>Day-to-day work powered by Cursor, Claude Code for agentic multi-file changes, and MCP-driven tools for contextual automation — while remaining the human in the loop for architecture, quality, and delivery.</p>
+      </div>
+
+      <!-- SKILLS -->
+      <div class="section">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skill-group">
+          <div class="skill-cat">AI & Tooling</div>
+          <div class="skill-tags">
+            <span class="tag">Cursor</span><span class="tag">Claude Code</span><span class="tag">MCP Servers</span><span class="tag">Conductor</span><span class="tag">Prompt Eng.</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-cat">Languages</div>
+          <div class="skill-tags">
+            <span class="tag">Ruby on Rails</span><span class="tag">Ruby</span><span class="tag">Node.js</span><span class="tag">React</span><span class="tag">Ember.js</span><span class="tag">JavaScript</span><span class="tag">CoffeeScript</span><span class="tag">HTML</span><span class="tag">SCSS</span><span class="tag">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-cat">Architecture</div>
+          <div class="skill-tags">
+            <span class="tag">GraphQL</span><span class="tag">REST APIs</span><span class="tag">RPC</span><span class="tag">Microservices</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-cat">Data & Messaging</div>
+          <div class="skill-tags">
+            <span class="tag">PostgreSQL</span><span class="tag">MySQL</span><span class="tag">MongoDB</span><span class="tag">Redis</span><span class="tag">Kafka</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-cat">Cloud & DevOps</div>
+          <div class="skill-tags">
+            <span class="tag">AWS</span><span class="tag">GCP</span><span class="tag">Heroku</span><span class="tag">Docker</span><span class="tag">CI/CD</span><span class="tag">CircleCI</span><span class="tag">Sidekiq</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-cat">Payments</div>
+          <div class="skill-tags">
+            <span class="tag">Stripe</span><span class="tag">PayPal</span><span class="tag">Braintree</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-cat">Testing</div>
+          <div class="skill-tags">
+            <span class="tag">RSpec</span><span class="tag">Cucumber</span><span class="tag">Selenium</span><span class="tag">TDD</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-cat">Observability</div>
+          <div class="skill-tags">
+            <span class="tag">Datadog</span><span class="tag">Sentry</span><span class="tag">Last9</span><span class="tag">Retool</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="edu-item">
+          <div class="edu-degree">Master of Computer Application</div>
+          <div class="edu-detail">GDCST · Sardar Patel University<br>Anand, Gujarat · 2014–2016</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-degree">Bachelor in Computer Science</div>
+          <div class="edu-detail">NCSC · VNSGU<br>Bharuch, Gujarat · 2011–2014</div>
+        </div>
+      </div>
+
+    </aside>
+
+    <!-- RIGHT COLUMN -->
+    <main class="col-right">
+
+      <!-- EXPERIENCE -->
+      <div class="section">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="job">
+          <div class="job-header">
+            <div class="job-title">Software Engineer</div>
+            <div class="job-period">Jan 2023 – Feb 2026</div>
+          </div>
+          <div class="job-company">Jiva AgServices <em>· Bangalore (Remote)</em></div>
+          <div class="tech-line"><span class="tech-prefix">Tech:</span> Ruby on Rails · GraphQL · PostgreSQL · Kafka · Sidekiq · Retool · RSpec · CircleCI · MetaBase</div>
+          <ul class="bullets">
+            <li>Designed and developed scalable services using Ruby on Rails, GraphQL, and a microservices architecture.</li>
+            <li>Built campaign management flows controlling user incentives and driving engagement and platform traction.</li>
+            <li>Implemented commission and payout structures based on performance slabs for diverse user segments.</li>
+            <li>Owned the end-to-end contract lifecycle — from creation and credit-limit breach management to invoice generation.</li>
+            <li>Led large-scale financial migrations for partners, ensuring smooth transitions with minimal downtime.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <div class="job-title">Software Engineer</div>
+            <div class="job-period">Sep 2019 – Nov 2022</div>
+          </div>
+          <div class="job-company">Coupa Software <em>· Pune (Remote)</em></div>
+          <div class="tech-line"><span class="tech-prefix">Tech:</span> Ruby on Rails · Microservices · React.js · Redux.js · PostgreSQL · Apache Kafka · Sidekiq · AWS</div>
+          <ul class="bullets">
+            <li>Owned the sourcing module end-to-end — feature design, story creation, planning, peer reviews, and delivery.</li>
+            <li>Been responsible for monitoring production issues and ensuring timely resolution.</li>
+            <li>Collaborated with architects on design solutions and ensured robust, compatible API integrations.</li>
+            <li>Improved code quality focusing on browser compatibility, best practices, and test coverage.</li>
+            <li>Partnered with product teams to prioritize requirements and drive architectural decisions.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <div class="job-title">Team Lead</div>
+            <div class="job-period">Jan 2016 – Aug 2019</div>
+          </div>
+          <div class="job-company">Narola Infotech <em>· Surat</em></div>
+          <div class="tech-line"><span class="tech-prefix">Tech:</span> Ruby on Rails · React · PostgreSQL · Sidekiq · AWS · CI/CD · Ember.js · CoffeeScript</div>
+          <ul class="bullets">
+            <li>Joined as one of the first Ruby on Rails interns and grew into a Team Leader over 3.5 years.</li>
+            <li>Led delivery across projects including architecture, deployment, client interaction, and post-production support.</li>
+            <li>Monitored and managed team performance, including daily standups, sprint planning, and retrospectives.</li>
+            <li>Mentored interns and junior developers; managed task delegation and sprint delivery.</li>
+            <li>Acted as cross-team technical unblock, maintaining high code quality and alignment with client requirements.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- PROJECTS -->
+      <div class="section">
+        <h2 class="section-title">Project Highlights</h2>
+        <div class="projects-grid">
+          <div class="project-item">
+            <div class="project-name">Jiva AgServices</div>
+            <div class="project-desc">AgriTech platform advising 10M+ farmers and processing 500K+ tonnes of harvest across India and Indonesia.  by making agricultural supply chains more equitable for farmer communities.</div>
+          </div>
+          <div class="project-item">
+            <div class="project-name">Coupa BSM</div>
+            <div class="project-desc">Enterprise Business Spend Management platform — a network of 10M+ buyers and suppliers, and leading apps together on one unified platform.</div>
+          </div>
+          <div class="project-item">
+            <div class="project-name">Interstride</div>
+            <div class="project-desc">Global careers platform for international students — admissions portals, job search, and visa resources.</div>
+          </div>
+          <div class="project-item">
+            <div class="project-name">WeddingExpo</div>
+            <div class="project-desc">Bride-to-vendor marketplace with payments, email marketing, and live event support.</div>
+          </div>
+          <div class="project-item">
+            <div class="project-name">Nuntiux</div>
+            <div class="project-desc">Fintech platform connecting investors and students for education loans. Owned full architecture to deployment.</div>
+          </div>
+          <div class="project-item">
+            <div class="project-name">NextProof</div>
+            <div class="project-desc">Photo proofing SaaS that provides online gallery software and sales tools for professional photographers around the world.</div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</div>
+</body>
+</html>
