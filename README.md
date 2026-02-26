@@ -79,7 +79,7 @@ Senior Software Engineer with 10+ years of experience building and scaling web a
 ## EDUCATION
 
 - **Master of Computer Application (MCA)** · GDCST · Sardar Patel University · Anand, Gujarat · 2014 – 2016.
-- **Bachelor in Computer Science** · NCSC · Narmad South Gujarat University · Bharuch, Gujarat · 2011 – 2014.
+- **Bachelor in Computer Science** · NCSC · Veer Narmad South Gujarat University · Bharuch, Gujarat · 2011 – 2014.
 
 ---
 
