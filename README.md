@@ -6,9 +6,15 @@ Email: [aakanksha0402@gmail.com](mailto:aakanksha0402@gmail.com) · LinkedIn: ht
 
 ---
 
-## SUMMARY
+## PROFILE
 
-Senior Software Engineer with 10+ years of experience building and scaling web applications using Ruby on Rails, GraphQL, and microservices. Deep experience in financial flows, contract and payout systems, and B2B/B2C platforms. Strong focus on AI‑augmented development using tools like Cursor, Claude Code, Conductor and MCP servers to ship high‑quality features faster, with a track record of leading projects, mentoring engineers, and collaborating closely with product and business stakeholders.
+Senior Software Engineer with 10+ years building and scaling web applications. Skilled in leading projects, delivering reliable, test-driven, and scalable solutions while collaborating across stakeholders.
+
+---
+
+## AI‑FIRST WORKFLOW
+
+Day-to-day work powered by Cursor, Claude Code for agentic multi-file changes, and MCP-driven tools for contextual automation — while remaining the human in the loop for architecture, quality, and delivery.
 
 ---
 
@@ -30,7 +36,8 @@ Senior Software Engineer with 10+ years of experience building and scaling web a
 ### Software Engineer · Coupa Software · Pune (Remote)  
 **Sep 2019 – Nov 2022**
 
-- Owned the sourcing module end‑to‑end, including feature design, story creation, planning, peer reviews, and delivery.
+- Owned the sourcing module end‑to‑end, including feature design, story creation, planning, peer reviews, test coverage, and delivery.
+- Responsible for monitoring production issues and ensuring timely resolution.
 - Collaborated with developers and architects to select design solutions and ensure robust, compatible API integrations.
 - Improved code quality by focusing on browser compatibility, industry best practices, and test coverage.
 - Partnered with product teams to prioritize requirements and drive architectural decisions in the sourcing domain.
@@ -44,6 +51,7 @@ Senior Software Engineer with 10+ years of experience building and scaling web a
 
 - Joined as one of the first Ruby on Rails interns and grew into a Team Lead over 3.5 years.
 - Led delivery across small and large‑scale projects including architecture, deployment, client interaction, and post‑production support.
+- Monitored and managed team performance, including daily standups, sprint planning, and retrospectives.
 - Mentored interns and junior developers, managed task delegation, and ensured on‑time delivery against daily and sprint targets.
 - Acted as a cross‑team technical unblock, maintaining high code quality and alignment with client requirements.
 
@@ -68,12 +76,12 @@ Senior Software Engineer with 10+ years of experience building and scaling web a
 ## PROJECT HIGHLIGHTS
 
 - **Jiva AgServices:** AgriTech and microfinance platform improving livelihoods of smallholder farmers across India and Indonesia, supporting micro‑financing, agri‑ecommerce, harvest purchase, and agronomy advisory. Contributed to systems that advised 10M+ farmers and processed 500K+ tonnes of harvest.
-- **Coupa BSM:** Enterprise Business Spend Management platform. Responsible for development tasks, issue triage from customer feedback, and close collaboration with product/project managers.
+- **Coupa BSM:** Enterprise Business Spend Management platform — a network of 10M+ buyers and suppliers on one unified platform. Responsible for development tasks, issue triage from customer feedback, and close collaboration with product/project managers.
 - **Interstride:** Platform powering global careers for international students — admissions and career portals, job and internship search, and visa sponsorship resources. Contributed while at Narola Infotech.
 - **WeddingExpo:** Marketplace connecting brides and vendors with an admin panel for prize/discount management, payment processing, email marketing, and recurring jobs. Led end‑to‑end development and live event support.
 - **Nuntiux:** Fintech platform (Rails API + Angular + MongoDB) enabling direct connections between investors and students for education loans. Owned architecture, database design, API development, test coverage, and deployment.
 - **SiteSpy:** Construction platform requiring multi‑GB ZIP uploads to AWS S3. Designed and implemented a robust large‑file upload solution that solved request timeout issues.
-- **NextProof:** Photo proofing SaaS for studios with client galleries, purchase, download, and sharing features. Built the data model, business logic, and all client‑facing APIs.
+- **NextProof:** Photo proofing SaaS providing online gallery software and sales tools for professional photographers. Built the data model, business logic, and all client‑facing APIs.
 
 ---
 
@@ -81,9 +89,3 @@ Senior Software Engineer with 10+ years of experience building and scaling web a
 
 - **Master of Computer Application (MCA)** · GDCST · Sardar Patel University · Anand, Gujarat · 2014 – 2016.
 - **Bachelor in Computer Science** · NCSC · Veer Narmad South Gujarat University · Bharuch, Gujarat · 2011 – 2014.
-
----
-
-## AI‑AUGMENTED DEVELOPMENT
-
-Day‑to‑day work is powered by an AI‑first toolchain: Cursor as the primary editor, Claude Code for agentic multi‑file changes, and MCP‑driven tools for rich, contextual automation. I design workflows where AI agents assist with refactoring, tests, documentation, and experimentation, while I remain the “human in the loop” for architectural decisions, code quality, and delivery.
