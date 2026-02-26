@@ -68,6 +68,7 @@ Senior Software Engineer with 10+ years of experience building and scaling web a
 
 - **Jiva Agservices:** AgriTech and microfinance platform improving livelihoods of smallholder farmers across India and Indonesia, supporting micro‑financing, agri‑ecommerce, harvest purchase, and agronomy advisory. Contributed to systems that advised 10M+ farmers and processed 500K+ tonnes of harvest.
 - **Coupa BSM:** Enterprise Business Spend Management platform. Responsible for development tasks, issue triage from customer feedback, and close collaboration with product/project managers.
+- **Interstride:** Platform powering global careers for international students — admissions and career portals, job and internship search, and visa sponsorship resources. Contributed while at Narola Infotech.
 - **WeddingExpo:** Marketplace connecting brides and vendors with an admin panel for prize/discount management, payment processing, email marketing, and recurring jobs. Led end‑to‑end development and live event support.
 - **Nuntiux:** Fintech platform (Rails API + Angular + MongoDB) enabling direct connections between investors and students for education loans. Owned architecture, database design, API development, test coverage, and deployment.
 - **SiteSpy:** Construction platform requiring multi‑GB ZIP uploads to AWS S3. Designed and implemented a robust large‑file upload solution that solved request timeout issues.
@@ -77,8 +78,8 @@ Senior Software Engineer with 10+ years of experience building and scaling web a
 
 ## EDUCATION
 
-- **Master of Computer Application (MCA)** · GDCST, Anand · 2014 – 2016 · Gujarat, India.
-- **Bachelor in Computer Science** · NCSC, Bharuch · 2011 – 2014 · Gujarat, India.
+- **Master of Computer Application (MCA)** · GDCST · Sardar Patel University · Anand, Gujarat · 2014 – 2016.
+- **Bachelor in Computer Science** · NCSC · Narmad South Gujarat University · Bharuch, Gujarat · 2011 – 2014.
 
 ---
 

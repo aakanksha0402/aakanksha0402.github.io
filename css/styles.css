@@ -484,16 +484,61 @@ section { padding: 80px 0; }
   color: var(--blue);
 }
 
-/* ── Education ── */
-.edu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-.edu-header {
+.project-card-cta {
+  text-decoration: none;
+  color: inherit;
+  border: 2px dashed rgba(124, 58, 237, 0.4);
+  background: rgba(124, 58, 237, 0.04);
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 14px;
+  justify-content: center;
+  min-height: 140px;
+  transition: border-color 0.2s, background 0.2s;
 }
-.edu-icon { font-size: 28px; }
-.edu-card .degree { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+.project-card-cta:hover {
+  border-color: var(--purple);
+  background: rgba(124, 58, 237, 0.08);
+}
+.project-card-cta-inner {
+  text-align: center;
+  padding: 12px;
+}
+.project-card-cta-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--purple);
+  display: block;
+  margin-bottom: 8px;
+}
+.project-card-cta-text {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 0 0 10px 0;
+  line-height: 1.5;
+}
+.project-card-cta-link {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--purple);
+}
+
+/* ── Education ── */
+.edu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.edu-card {
+  border-left: 3px solid var(--purple);
+  padding-left: 16px;
+}
+.edu-year {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--purple);
+  margin-bottom: 10px;
+}
+.edu-card .degree { font-size: 15px; font-weight: 700; margin-bottom: 6px; color: var(--text); }
 .edu-card .school { font-size: 13px; color: var(--text-muted); margin-bottom: 8px; }
 .edu-meta {
   font-size: 11px;
