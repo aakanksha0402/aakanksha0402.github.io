@@ -55,12 +55,12 @@ Senior Software Engineer with 10+ years of experience building and scaling web a
 
 - **AI & Tooling:** Cursor, Claude Code, MCP Servers, Agentic Applications, Conductor, Prompt Engineering.
 - **Languages & Frameworks:** Ruby on Rails, Ruby (1.9+), Rails (4.2+), Node.js, React, Ember.js, CoffeeScript, JavaScript, HTML, SCSS, SQL.
-- **Architecture & APIs:** GraphQL, REST APIs, RPC, Microservices.
-- **Databases & Messaging:** PostgreSQL, MySQL, MongoDB, Redis, Kafka, Datadog.
+- **Cloud, DevOps & Payments:** AWS, GCP, Heroku, Docker, CI/CD, CircleCI, Teamcity, Sidekiq, Ledger management, Stripe, PayPal, Braintree.
+- **Architecture & APIs:** GraphQL, REST APIs, RPC, Microservices, Swagger.
+- **Databases & Messaging:** PostgreSQL, MySQL, MongoDB, Redis, Kafka, Elasticsearch, Datadog.
 - **Testing:** RSpec, Cucumber, Selenium, TDD.
-- **Cloud, DevOps & Payments:** AWS, GCP, Heroku, Docker, CI/CD, CircleCI, Sidekiq, Stripe, PayPal, Braintree.
 - **Leadership & Management:** Team Leadership, Mentoring, Client Communication, Project Management, Product Management.
-- **Design & Collaboration:** Miro, Figma, Canva.
+- **Design & Collaboration:** Miro, Figma, Canva, Notion, Obsidian.
 - **Observability & Tooling:** Sentry, Last9, Retool, GitHub, Bitbucket, Jira, Asana.
 
 ---
