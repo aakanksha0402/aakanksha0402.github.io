@@ -2,8 +2,7 @@
 
 Senior Software Engineer · Human in AI Loop  
 India · Open to remote opportunities  
-Email: [aakanksha0402@gmail.com](mailto:aakanksha0402@gmail.com) · Phone: [+91 9033914223](tel:+919033914223)  
-LinkedIn: https://www.linkedin.com/in/aakanksha0402 · GitHub: https://github.com/aakanksha0402
+Email: [aakanksha0402@gmail.com](mailto:aakanksha0402@gmail.com) · LinkedIn: https://www.linkedin.com/in/aakanksha0402 · GitHub: https://github.com/aakanksha0402
 
 ---
 
