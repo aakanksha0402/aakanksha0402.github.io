@@ -9,7 +9,7 @@ LinkedIn: https://www.linkedin.com/in/aakanksha0402 · GitHub: https://github.co
 
 ## SUMMARY
 
-Senior Software Engineer with 10+ years of experience building and scaling web applications using Ruby on Rails, GraphQL, and microservices. Deep experience in financial flows, contract and payout systems, and B2B/B2C platforms. Strong focus on AI‑augmented development using tools like Cursor, Claude Code, and MCP servers to ship high‑quality features faster, with a track record of leading projects, mentoring engineers, and collaborating closely with product and business stakeholders.
+Senior Software Engineer with 10+ years of experience building and scaling web applications using Ruby on Rails, GraphQL, and microservices. Deep experience in financial flows, contract and payout systems, and B2B/B2C platforms. Strong focus on AI‑augmented development using tools like Cursor, Claude Code, Conductor and MCP servers to ship high‑quality features faster, with a track record of leading projects, mentoring engineers, and collaborating closely with product and business stakeholders.
 
 ---
 
