@@ -1,0 +1,19 @@
+name: Trigger README sync
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+
+jobs:
+  trigger-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger sync in portfolio repo
+        run: |
+          curl -X POST \
+            https://api.github.com/repos/aakanksha0402/aakanksha0402/dispatches \
+            -H "Authorization: token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+raw" \
+            -d '{"event_type":"readme-updated"}'
