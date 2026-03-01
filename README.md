@@ -14,7 +14,7 @@ Senior Software Engineer with 10+ years building and scaling web applications. S
 
 ## AI‑FIRST WORKFLOW
 
-Day-to-day work powered by Cursor, Claude Code for agentic multi-file changes, and MCP-driven tools for contextual automation — while remaining the human in the loop for architecture, quality, and delivery.
+Day-to-day work powered by Cursor, Claude Code for agentic multi-file changes, and MCP-driven tools for contextual automation - while remaining the human in the loop for architecture, quality, and delivery.
 
 ---
 
