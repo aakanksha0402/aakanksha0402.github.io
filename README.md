@@ -2,7 +2,7 @@
 
 Senior Software Engineer · Human in AI Loop  
 India · Open to remote opportunities  
-Email: [aakanksha0402@gmail.com](mailto:aakanksha0402@gmail.com) · LinkedIn: https://www.linkedin.com/in/aakanksha0402 · GitHub: https://github.com/aakanksha0402
+Email: [aakanksha0402@gmail.com](mailto:aakanksha0402@gmail.com) · LinkedIn: https://www.linkedin.com/in/aakanksha0402 · GitHub: https://github.com/aakanksha0402 · Website: https://aakanksha0402.github.io
 
 ---
 
