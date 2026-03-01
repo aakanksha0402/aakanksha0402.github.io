@@ -87,5 +87,5 @@ Day-to-day work powered by Cursor, Claude Code for agentic multi-file changes, a
 
 ## EDUCATION
 
-- **Master of Computer Application (MCA)** · GDCST · Sardar Patel University · Anand, Gujarat · 2014 – 2016
-- **Bachelor in Computer Science** · NCSC · Veer Narmad South Gujarat University · Bharuch, Gujarat · 2011 – 2014
+- **Master of Computer Application (MCA)** · GDCST · Sardar Patel University · Anand, Gujarat · 2014 – 2016.
+- **Bachelor in Computer Science** · NCSC · Veer Narmad South Gujarat University · Bharuch, Gujarat · 2011 – 2014.
